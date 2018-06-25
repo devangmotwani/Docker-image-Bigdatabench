@@ -100,6 +100,8 @@ RUN /usr/hadoop/hadoop-2.7.4/bin/hadoop namenode -format
 ##Install vim
 RUN apt-get install -y vim
 
+RUN apt-get install -y dstat
+
 ##Solving errors
 #LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
 #export LD_LIBRARY_PATH
